@@ -1,0 +1,84 @@
+.header
+{
+	background: #1A2C5B;
+	padding-left: 20px;
+}
+.title
+{
+	float: right;
+	color: white;
+	font-size: 40px;
+	padding-top: 40px;
+	padding-right: 20px; 
+	font-family: Tahoma;
+}
+#note
+{
+	background-color:#ADD8E6;
+	width: 600px;
+	height: auto;
+	padding: 20px;
+	font-size: 20px;
+	font-family: verdana;
+	color: #F8F8FF;
+}
+body
+{
+	background-color: #f2f2f2;
+}
+h1
+{
+	font-family: "Gill Sans MT";
+	font-size: 40px;
+}
+p,dl,table
+{
+	font-size: 18px;
+	font-family: verdana;
+}
+dt
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+#yoga
+{
+	float: right;
+	width: 580px;
+	height: 300px;
+	padding: 20px;
+}
+#qt1
+{
+	width: 70%;
+	height: 36%;
+	background-color:#ADD8E6; 
+	padding-left: 10px;
+}
+th
+{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	background-color: #3E4E88;
+	color: #ffffff;
+}
+tr
+{
+	background-color: #ADD8E6;
+}
+.imgs image,
+{
+	width: 100%;
+	height: auto;
+}
+iframe
+{
+	height: 400px;
+	width: 650px;
+}
+.vd
+{
+	height: 300px;
+	width: 550px;
+	padding: 10px;
+}

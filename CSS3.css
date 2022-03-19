@@ -1,0 +1,15 @@
+.header
+{
+	background: #1A2C5B;
+}
+table
+{
+	font-size: 15px;
+	font-family: verdana;
+	background-color: #ADD8E6;
+	padding: 20px;
+}
+input
+{
+	border-radius: 10px;
+}

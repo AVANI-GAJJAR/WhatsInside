@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Feedback</title>
+	<script src="java.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS3.css">
+</head>
+<body>
+	<div class="header">
+		<img src="door1.png" height="100" width="300">
+	</div>
+	<h1>FEEDBACK</h1>
+	<HR>
+	<table>
+		<form name="fdbck" onsubmit=" return Valid();" autocomplete="off">
+			<tr>
+				<td>First Name:<br><input type="text" name="name" id="f" placeholder="Enter your first name" onblur="myFunction(this.id)"></td>
+				<td>Second Name:<br><input type="text" name="name2" id="l" placeholder="Enter your second name" onblur="myFunction(this.id)"></td>
+			</tr>
+			<tr>
+				<td>Phone Number:<br><input type="tel" name="tel" id="n" placeholder="Your Phone Number" onblur="myFunction(this.id)"></td>
+				<td>Email Address:<br><input type="email" name="email" id="e" placeholder="Your Email ID" onblur="myFunction(this.id)"></td>
+			</tr>
+			<tr>
+				<td>Gender <br><input type="radio" name="Gender"> Male <input type="radio" name="Gender">Female <input type="radio" name="Gender">Other</td>
+				<td>Did you like it?<br><input type="radio" name="opi">Yes <input type="radio" name="opi">No</td>
+			</tr>
+			<tr>
+				<th colspan="2" align="left">Comments:<br><textarea cols="50" rows="8" name="Comments"></textarea></th>
+			</tr>
+			<tr>
+				<td align="right"><input type="submit"></td>
+				<td align="left"><input type="reset"></td>
+			</tr>
+		</form>
+	</table>
